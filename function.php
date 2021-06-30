@@ -1,10 +1,10 @@
 <?php
 	session_start();
-	define('Base_URL', "http://localhost/projectdes/belajar-crud/");
+	define('Base_URL', "https://inventoribarangptdas.herokuapp.com/login.php");
 	
 	function check_login(){
 		if(!isset($_SESSION['username'])){
-			header("Location: http://localhost/projectdes/belajar-crud/login.php");
+			header("Location: https://inventoribarangptdas.herokuapp.com/login.php");
 		}
 	}
 
